@@ -149,10 +149,6 @@ ul{
 	position: relative;
 }
 
-.upper{
- 	text-transform: uppercase;
- }
-
 .filtr{
 	position: absolute;
 	background-color: rgba(86, 141, 198, 0.7);
@@ -198,6 +194,20 @@ input[type="checkbox"]:checked + label:before{
 	background-color: white;
 }
 
+.breadcrumb{
+	background: none;
+}
+
+.breadcrumb a{
+	color: #ffffff;
+}
+
+
+li.active{
+	color: #ffffff;
+	text-decoration: solid;
+}
+
 h2{
 	color: white;
 	font-family: 'Roboto', sans-serif;
@@ -205,12 +215,26 @@ h2{
 	font-weight: bold;
 }
 
+.sort{
+	background: #568dc6;
+	width: 100%;
+	height: 38px;
+	font-size: 21px;
+	border: 1px solid white;
+} 
+
+option{
+
+	height: 38px;
+}
 .pr1{
 	margin: 15px;
 	/*width: 100%;
 	height: 100%;*/
 	border: 1px solid white;
 	padding: 0;
+	background-color: #3778bc;
+ 	opacity: 0.7;
 
 }
 
@@ -220,7 +244,8 @@ h3{
  	font-family: 'Roboto', sans-serif;
  	color: white;
  	text-align: center;
- 	margin: 10px;
+ 	margin: 0px;
+ 	padding: 10px;
  	font-weight: bold;
 
  }
@@ -229,8 +254,9 @@ h3{
  	font-size: 21px;
  	font-family: 'Roboto', sans-serif;
  	color: white;
- 	margin: 10px;
- }
+ 	margin: 10px
+	
+ 	 }
 
 .upper{
  	text-transform: uppercase;
@@ -271,16 +297,10 @@ h3{
  	background-position: center;
   }
 
-.content{
-	background-color: #3778bc;
- 	opacity: 0.8;
-}
- 
+
 .buttons{
  	text-align: center;
- 	background-color: #3778bc;
- 	opacity: 0.8;
- }
+  }
 
 .button1{
  	width: 208px;
@@ -377,3 +397,6 @@ h3{
 .copyright{
 	color: #2c71b8; 
 }
+
+
+
